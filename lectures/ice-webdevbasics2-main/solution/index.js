@@ -14,7 +14,7 @@ function updateRecipe() {
     const selectedRecipe = document.getElementById("recipe-selector").value;
     fetch("https://cs571api.cs.wisc.edu/rest/s25/ice/" + selectedRecipe, {
         headers: {
-            "X-CS571-ID": CS571.getBadgerId() // you may hardcode your bid_
+            "X-CS571-ID": "bid_6e9da2cd80dee1edd307865a3265f91ca2548e76c36eaa8c22321a4fa261fe68" // you may hardcode your bid_
         }
     })
     .then(res => res.json())

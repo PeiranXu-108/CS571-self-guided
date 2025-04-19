@@ -5,7 +5,7 @@
 //  https://cs571api.cs.wisc.edu/rest/s25/ice/pasta
 //  https://cs571api.cs.wisc.edu/rest/s25/ice/pizza
 
-const reviewNum = 0;
+let reviewNum = 0;
 const REVIEWS = [
     "A burst of warmth and flavor in every spoonful; simple yet irresistible!",
     "The perfect blend of spice and comfort, an easy go-to chili recipe.",
@@ -25,9 +25,11 @@ for (let ingr of ingrs) {
 // TODO Implement the update yield!
 function updateYield() {
     alert("I should update the yield!");
+    
 }
 
 // TODO Implement the display review!
 function displayReview() {
-    alert("I should display a review!");
+    alert(REVIEWS[reviewNum]);
+    reviewNum = (reviewNum + 1) % REVIEWS.length;
 }

@@ -39,7 +39,7 @@ function buildStudents(studs) {
 		students.appendChild(studentCredits);
 
 		const studentInterests = document.createElement("p");
-		studentInterests.innerText = `They have ${studs[i].interests.length} including...`;
+		studentInterests.innerText = `They have ${studs[i].interests.length} interests including...`;
 		students.appendChild(studentInterests);
 		const ul = document.createElement("ul")
 		const numInterests = studs[i].interests.length;

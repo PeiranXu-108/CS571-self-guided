@@ -1,14 +1,13 @@
-import { useState } from "react";
+/* eslint-disable*/
 import { Button, Table, Card } from "react-bootstrap";
+import { useState } from "react";
 
 export default function FeaturedItem(props) {
 
     const [showNutrition, setShowNutrition] = useState(false);
-
     function handleClick() {
-        setShowNutrition(oShow => !oShow);
+        setShowNutrition(prev => !prev);
     }
-
     return (
       <Card style={{ margin: "auto", marginTop: "1rem", maxWidth: "40rem" }}>
         <Card.Body>

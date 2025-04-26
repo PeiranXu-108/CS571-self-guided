@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
+/* eslint-disable */
 import { useState, useEffect } from "react";
 import FeaturedItem from "./FeaturedItem";
 

@@ -4,3 +4,4 @@
 - hw2 completed! 4/20/2025
 - lec7 finished! 4/23/2025
 - hw3 completed! 4/25/2025
+- lec webdev-2 4/27/2025

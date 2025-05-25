@@ -11,3 +11,4 @@
 - hw5 completed! 5/19/2025
 - lec webdev-4 5/21/2025
 - hw6 5/23/2025
+- lec webdev-5 5/24/2025

@@ -1,6 +1,6 @@
-fetch("https://cs571api.cs.wisc.edu/rest/s25/hw2/students", {
+fetch("https://cs571.org/rest/s25/hw2/students", {
 	headers: {
-		"X-CS571-ID": CS571.getBadgerId()
+		"X-CS571-ID": 'bid_f33917fdb8555977e6256d91feaf5c069fe9f6e5c945336aec5acc5db565134c'
 	}
 })
 	.then(res => res.json())
